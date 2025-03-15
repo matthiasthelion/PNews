@@ -33,6 +33,55 @@ nav a {
     padding: 10px;
     margin: 0 10px;
 }
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #555;
+}
+.login-options {
+    margin-top: 10px;
+}
+.login-options a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.search-results {
+    margin-top: 20px;
+}
+.search-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.search-item img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.search-item h2 {
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+.search-item p {
+    margin: 0;
+    color: #555;
+}
 .sub-nav {
     background: #555;
     color: #fff;
